@@ -1,0 +1,3 @@
+sudo docker build -f dockerfle -t wp1:1 .
+chmod +x runner.sh
+./runner.sh
