@@ -1,3 +1,8 @@
+you should:
+make direcotry on /opt/wp1/etc/
+create index.html on /var/www/html 
+create php.ini on /opt/wp1/etc/
+then
 sudo docker build -f dockerfle -t wp1:1 .
 chmod +x runner.sh
 ./runner.sh
